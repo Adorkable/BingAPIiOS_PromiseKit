@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C96724D1AF2738E004BAF8E /* BingAPI_PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C96724C1AF2738E004BAF8E /* BingAPI_PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9672531AF2738E004BAF8E /* BingAPI_PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9672471AF2738E004BAF8E /* BingAPI_PromiseKit.framework */; };
+		3C96725A1AF2738E004BAF8E /* Bing_PromiseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9672591AF2738E004BAF8E /* Bing_PromiseKitTests.swift */; };
+		3C9672641AF273F1004BAF8E /* Bing+PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9672631AF273F1004BAF8E /* Bing+PromiseKit.swift */; };
+		3C96726A1AF277D7004BAF8E /* BingAPI_PromiseKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3C9672691AF277D7004BAF8E /* BingAPI_PromiseKit.podspec */; };
+		AABB1529935FC354968EA20A /* Pods_BingAPI_PromiseKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99705B3A94069629D622EE /* Pods_BingAPI_PromiseKitTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B29FCE35E70760A997EA9768 /* Pods_BingAPI_PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DF36145BE2DBBE3B0B15C9 /* Pods_BingAPI_PromiseKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9672541AF2738E004BAF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C96723E1AF2738E004BAF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9672461AF2738E004BAF8E;
+			remoteInfo = BingAPI_PromiseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9672471AF2738E004BAF8E /* BingAPI_PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BingAPI_PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C96724B1AF2738E004BAF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C96724C1AF2738E004BAF8E /* BingAPI_PromiseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BingAPI_PromiseKit.h; sourceTree = "<group>"; };
+		3C9672521AF2738E004BAF8E /* BingAPI_PromiseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingAPI_PromiseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9672581AF2738E004BAF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9672591AF2738E004BAF8E /* Bing_PromiseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bing_PromiseKitTests.swift; sourceTree = "<group>"; };
+		3C9672631AF273F1004BAF8E /* Bing+PromiseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bing+PromiseKit.swift"; sourceTree = "<group>"; };
+		3C9672691AF277D7004BAF8E /* BingAPI_PromiseKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BingAPI_PromiseKit.podspec; sourceTree = "<group>"; };
+		6CA462D006B06DAC198C2F0C /* Pods-BingAPI_PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingAPI_PromiseKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BingAPI_PromiseKit/Pods-BingAPI_PromiseKit.release.xcconfig"; sourceTree = "<group>"; };
+		9CEB07A76365BE8C248B2D3D /* Pods-BingAPI_PromiseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingAPI_PromiseKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BingAPI_PromiseKitTests/Pods-BingAPI_PromiseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC99705B3A94069629D622EE /* Pods_BingAPI_PromiseKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BingAPI_PromiseKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8B65000A939D1E03772FDC /* Pods-BingAPI_PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingAPI_PromiseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BingAPI_PromiseKit/Pods-BingAPI_PromiseKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D2FE843753EF605A9BE3A50B /* Pods-BingAPI_PromiseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingAPI_PromiseKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BingAPI_PromiseKitTests/Pods-BingAPI_PromiseKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4DF36145BE2DBBE3B0B15C9 /* Pods_BingAPI_PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BingAPI_PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9672431AF2738E004BAF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29FCE35E70760A997EA9768 /* Pods_BingAPI_PromiseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96724F1AF2738E004BAF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9672531AF2738E004BAF8E /* BingAPI_PromiseKit.framework in Frameworks */,
+				AABB1529935FC354968EA20A /* Pods_BingAPI_PromiseKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39FB8B6DD8D34514C592A619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B65000A939D1E03772FDC /* Pods-BingAPI_PromiseKit.debug.xcconfig */,
+				6CA462D006B06DAC198C2F0C /* Pods-BingAPI_PromiseKit.release.xcconfig */,
+				9CEB07A76365BE8C248B2D3D /* Pods-BingAPI_PromiseKitTests.debug.xcconfig */,
+				D2FE843753EF605A9BE3A50B /* Pods-BingAPI_PromiseKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C96723D1AF2738E004BAF8E = {
+			isa = PBXGroup;
+			children = (
+				3C9672691AF277D7004BAF8E /* BingAPI_PromiseKit.podspec */,
+				3C9672491AF2738E004BAF8E /* BingAPI_PromiseKit */,
+				3C9672561AF2738E004BAF8E /* BingAPI_PromiseKitTests */,
+				3C9672481AF2738E004BAF8E /* Products */,
+				39FB8B6DD8D34514C592A619 /* Pods */,
+				E3FB2A172FBE4BAC53A01C04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9672481AF2738E004BAF8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9672471AF2738E004BAF8E /* BingAPI_PromiseKit.framework */,
+				3C9672521AF2738E004BAF8E /* BingAPI_PromiseKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9672491AF2738E004BAF8E /* BingAPI_PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C96724C1AF2738E004BAF8E /* BingAPI_PromiseKit.h */,
+				3C96724A1AF2738E004BAF8E /* Supporting Files */,
+				3C9672631AF273F1004BAF8E /* Bing+PromiseKit.swift */,
+			);
+			path = BingAPI_PromiseKit;
+			sourceTree = "<group>";
+		};
+		3C96724A1AF2738E004BAF8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C96724B1AF2738E004BAF8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C9672561AF2738E004BAF8E /* BingAPI_PromiseKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9672591AF2738E004BAF8E /* Bing_PromiseKitTests.swift */,
+				3C9672571AF2738E004BAF8E /* Supporting Files */,
+			);
+			path = BingAPI_PromiseKitTests;
+			sourceTree = "<group>";
+		};
+		3C9672571AF2738E004BAF8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9672581AF2738E004BAF8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3FB2A172FBE4BAC53A01C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4DF36145BE2DBBE3B0B15C9 /* Pods_BingAPI_PromiseKit.framework */,
+				AC99705B3A94069629D622EE /* Pods_BingAPI_PromiseKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C9672441AF2738E004BAF8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C96724D1AF2738E004BAF8E /* BingAPI_PromiseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C9672461AF2738E004BAF8E /* BingAPI_PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C96725D1AF2738E004BAF8E /* Build configuration list for PBXNativeTarget "BingAPI_PromiseKit" */;
+			buildPhases = (
+				4D6FBF942A941370B449D39A /* Check Pods Manifest.lock */,
+				3C9672421AF2738E004BAF8E /* Sources */,
+				3C9672431AF2738E004BAF8E /* Frameworks */,
+				3C9672441AF2738E004BAF8E /* Headers */,
+				3C9672451AF2738E004BAF8E /* Resources */,
+				26D4B2EC593759232E206536 /* Embed Pods Frameworks */,
+				E8F801F69644321539FEE2AB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingAPI_PromiseKit;
+			productName = BingAPI_PromiseKit;
+			productReference = 3C9672471AF2738E004BAF8E /* BingAPI_PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C9672511AF2738E004BAF8E /* BingAPI_PromiseKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9672601AF2738E004BAF8E /* Build configuration list for PBXNativeTarget "BingAPI_PromiseKitTests" */;
+			buildPhases = (
+				DEEAA5D9DF3B77C30D2D51BC /* Check Pods Manifest.lock */,
+				3C96724E1AF2738E004BAF8E /* Sources */,
+				3C96724F1AF2738E004BAF8E /* Frameworks */,
+				3C9672501AF2738E004BAF8E /* Resources */,
+				CD014BDCA39E9DA958D805D5 /* Embed Pods Frameworks */,
+				BB214C2B35D2C717FC0BB04C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9672551AF2738E004BAF8E /* PBXTargetDependency */,
+			);
+			name = BingAPI_PromiseKitTests;
+			productName = BingAPI_PromiseKitTests;
+			productReference = 3C9672521AF2738E004BAF8E /* BingAPI_PromiseKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C96723E1AF2738E004BAF8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Adorkable;
+				TargetAttributes = {
+					3C9672461AF2738E004BAF8E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3C9672511AF2738E004BAF8E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C9672411AF2738E004BAF8E /* Build configuration list for PBXProject "BingAPI_PromiseKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C96723D1AF2738E004BAF8E;
+			productRefGroup = 3C9672481AF2738E004BAF8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9672461AF2738E004BAF8E /* BingAPI_PromiseKit */,
+				3C9672511AF2738E004BAF8E /* BingAPI_PromiseKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9672451AF2738E004BAF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C96726A1AF277D7004BAF8E /* BingAPI_PromiseKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9672501AF2738E004BAF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26D4B2EC593759232E206536 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingAPI_PromiseKit/Pods-BingAPI_PromiseKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D6FBF942A941370B449D39A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB214C2B35D2C717FC0BB04C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingAPI_PromiseKitTests/Pods-BingAPI_PromiseKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD014BDCA39E9DA958D805D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingAPI_PromiseKitTests/Pods-BingAPI_PromiseKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEAA5D9DF3B77C30D2D51BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F801F69644321539FEE2AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingAPI_PromiseKit/Pods-BingAPI_PromiseKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9672421AF2738E004BAF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9672641AF273F1004BAF8E /* Bing+PromiseKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96724E1AF2738E004BAF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C96725A1AF2738E004BAF8E /* Bing_PromiseKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9672551AF2738E004BAF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9672461AF2738E004BAF8E /* BingAPI_PromiseKit */;
+			targetProxy = 3C9672541AF2738E004BAF8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C96725B1AF2738E004BAF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C96725C1AF2738E004BAF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C96725E1AF2738E004BAF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8B65000A939D1E03772FDC /* Pods-BingAPI_PromiseKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BingAPI_PromiseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C96725F1AF2738E004BAF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA462D006B06DAC198C2F0C /* Pods-BingAPI_PromiseKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BingAPI_PromiseKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C9672611AF2738E004BAF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEB07A76365BE8C248B2D3D /* Pods-BingAPI_PromiseKitTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BingAPI_PromiseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C9672621AF2738E004BAF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FE843753EF605A9BE3A50B /* Pods-BingAPI_PromiseKitTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BingAPI_PromiseKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9672411AF2738E004BAF8E /* Build configuration list for PBXProject "BingAPI_PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C96725B1AF2738E004BAF8E /* Debug */,
+				3C96725C1AF2738E004BAF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C96725D1AF2738E004BAF8E /* Build configuration list for PBXNativeTarget "BingAPI_PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C96725E1AF2738E004BAF8E /* Debug */,
+				3C96725F1AF2738E004BAF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9672601AF2738E004BAF8E /* Build configuration list for PBXNativeTarget "BingAPI_PromiseKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9672611AF2738E004BAF8E /* Debug */,
+				3C9672621AF2738E004BAF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C96723E1AF2738E004BAF8E /* Project object */;
+}
