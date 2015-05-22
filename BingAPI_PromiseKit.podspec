@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'BingAPI_PromiseKit'
-  s.version      = '0.0.1'
+  s.version      = '0.1.0'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/Adorkable/BingAPIiOS_PromiseKit'
   s.authors      =  { 'Ian Grossberg' => 'yo.ian.g@gmail.com' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '8.0'
-  s.source       =  { :git => 'https://github.com/Adorkable/BingAPIiOS_PromiseKit.git', :tag => '0.0.1' }
+  s.source       =  { :git => 'https://github.com/Adorkable/BingAPIiOS_PromiseKit.git', :tag => '0.1.0' }
   s.source_files = 'BingAPI_PromiseKit/*.swift'
 
   s.dependency 'BingAPI'
