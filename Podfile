@@ -5,10 +5,10 @@ use_frameworks!
 
 target 'BingAPI_PromiseKit' do
   pod 'BingAPI'
-  pod 'PromiseKit/Swift'
+  pod 'PromiseKit', '~> 2'
 end
 
 target 'BingAPI_PromiseKitTests' do
   pod 'BingAPI'
-  pod 'PromiseKit/Swift'
+  pod 'PromiseKit', '~> 2'
 end

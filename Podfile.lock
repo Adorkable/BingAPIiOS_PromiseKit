@@ -1,5 +1,5 @@
 PODS:
-  - BingAPI (0.0.5)
+  - BingAPI (0.1.0)
   - OMGHTTPURLRQ (2.1):
     - OMGHTTPURLRQ/RQ (= 2.1)
   - OMGHTTPURLRQ/FormURLEncode (2.1)
@@ -7,26 +7,26 @@ PODS:
     - OMGHTTPURLRQ/FormURLEncode
     - OMGHTTPURLRQ/UserAgent
   - OMGHTTPURLRQ/UserAgent (2.1)
-  - PromiseKit/Swift (1.5.3):
-    - PromiseKit/Swift/Foundation (= 1.5.3)
-    - PromiseKit/Swift/UIKit (= 1.5.3)
-  - PromiseKit/Swift/Foundation (1.5.3):
+  - PromiseKit (2.0.0):
+    - PromiseKit/Foundation (= 2.0.0)
+    - PromiseKit/QuartzCore (= 2.0.0)
+    - PromiseKit/UIKit (= 2.0.0)
+  - PromiseKit/CorePromise (2.0.0)
+  - PromiseKit/Foundation (2.0.0):
     - OMGHTTPURLRQ
-    - PromiseKit/Swift/NSJSONFromData
-    - PromiseKit/Swift/Promise
-  - PromiseKit/Swift/NSJSONFromData (1.5.3):
-    - PromiseKit/Swift/Promise
-  - PromiseKit/Swift/Promise (1.5.3)
-  - PromiseKit/Swift/UIKit (1.5.3):
-    - PromiseKit/Swift/Promise
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (2.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (2.0.0):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - BingAPI
-  - PromiseKit/Swift
+  - PromiseKit (~> 2)
 
 SPEC CHECKSUMS:
-  BingAPI: 3f87fad3564d168cca026bb99cb19fb9f878f0e4
+  BingAPI: 326fc63dc2abd8e677c3e22b8cb71523b556dd17
   OMGHTTPURLRQ: f8c515dfd2f57a5d74c710978f600231f52afec5
-  PromiseKit: 7ecae7c190ab92ae00aae6ba7f88942107532b8f
+  PromiseKit: 94a571258076767ae3458a4329bc6630f881f711
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.37.1

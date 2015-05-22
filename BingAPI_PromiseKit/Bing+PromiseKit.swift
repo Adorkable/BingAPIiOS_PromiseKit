@@ -14,10 +14,10 @@ import PromiseKit
 
 public extension Bing {
     
-    public func promiseSearch(query : String, cachePolicy : NSURLRequestCachePolicy, timeoutInterval : NSTimeInterval) -> PromiseKit.Promise< Array< BingSearchResult>? > {
+    public func promiseSearch(query : String, timeoutInterval : NSTimeInterval) -> Promise< Array< BingSearchResult>? > {
         
-        return Promise< Array< BingSearchResult>? >({ (fulfill, reject) -> Void in
-            self.search(query, cachePolicy: cachePolicy, timeoutInterval: timeoutInterval, resultsHandler: { (results, error) -> Void in
+        return Promise { (fulfill, reject) -> Void in
+            self.search(query, timeoutInterval: timeoutInterval, resultsHandler: { (results, error) -> Void in
                 
                 if error != nil
                 {
@@ -28,7 +28,6 @@ public extension Bing {
                 }
                 
             })
-        })
-        
+        }
     }
 }
