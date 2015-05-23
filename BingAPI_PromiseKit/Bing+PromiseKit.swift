@@ -16,7 +16,7 @@ public extension Bing {
     
     public func promiseSearch(query : String, timeoutInterval : NSTimeInterval) -> Promise< Array< BingSearchResult>? > {
         
-        return Promise { (fulfill, reject) -> Void in
+        return Promise< Array< BingSearchResult>? > { fulfill, reject in
             self.search(query, timeoutInterval: timeoutInterval, resultsHandler: { (results, error) -> Void in
                 
                 if error != nil
