@@ -1,0 +1,17 @@
+osx_image: beta-xcode6.3
+language: objective-c
+
+xcode_workspace: BingAPI_PromiseKit.xcworkspace
+xcode_sdk: iphonesimulator8.3
+install:
+- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
+script:
+- xcodebuild test -project BingAPI_PromiseKit.xcworkspace -scheme 'BingAPI_PromiseKit' -destination 'platform=iOS Simulator,name=iPhone Retina (4-inch)' | xcpretty -c
+- xcodebuild -project BingAPI_PromiseKit.xcworkspace -scheme 'Podspec Lint' -destination 'platform=iOS Simulator,name=iPhone Retina (4-inch)' | xcpretty -c
+
+env:
+    global:
+    - TIMEOUT=1000
+    matrix:
+    - USE_NETWORK=true
